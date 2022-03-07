@@ -35,3 +35,9 @@
     overflow-x: hidden;
   }
 }
+
+@media (max-width: 550px) {
+  .subTitle {
+    font-weight: 600;
+  }
+}
