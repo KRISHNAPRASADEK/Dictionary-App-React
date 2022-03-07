@@ -1,0 +1,37 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 50vh;
+  border: 10px solid rgb(105, 105, 105);
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+  margin-top: 0.5vh;
+  margin-bottom: auto;
+}
+
+.subTitle {
+  font-size: 5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.singleMean {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.singleMean > span {
+  padding: 5px 0;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 60vh;
+    overflow-x: hidden;
+  }
+}
