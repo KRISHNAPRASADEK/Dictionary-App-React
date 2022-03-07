@@ -15,7 +15,7 @@
 
 
 ## Demo
-Here is a working live demo : https://inshorts-react-clone.netlify.app/
+Here is a working live demo : https://dictionary-app-reactjs.netlify.app/
 
 ## Detailes
 The dictionary data is fetched from Free Dictionary API : https://dictionaryapi.dev/
